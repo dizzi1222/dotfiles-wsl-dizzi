@@ -35,6 +35,8 @@ zsh-syntax-highlighting 0.8.0-1
 
 ![JJK  Art - 4](https://github.com/user-attachments/assets/50fd1d94-5478-4997-84d0-1e4187b28902)
 
+
+# ───────────────────────────────────
 ## ARCHWSLINSTALL - RESUMEN. + [Opcional]Yay + Configurar usuario root etc.
 ```## 📌!!! no INSTALES NVIM ni nada innecesario. Los alias se encargan de enlazar tus programas de windows con WSL```
 ```## 📌¡¡¡ Para que funcione .zshrc asegurate de adaptar los paths de; \user [diego] > y asi fucioaran los alias.```
@@ -108,10 +110,11 @@ cd dotfiles-wsl-dizzi
 stow .
 ```
 
-si encuentras un conflicto, eliminalo {Al hacer stow} [No uses --adopt]
+#### si encuentras un conflicto, eliminalo {Al hacer stow} [No uses --adopt]
 
 ### Zsh paquetes, gh auth etc
 ```sudo pacman -S git github-cli eza fastfetch nano stow yazi nodejs fzf ripgrep tmux python-pipx
+```
 ```
 
 #
