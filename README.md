@@ -1,8 +1,6 @@
 
 # =============================================
-#
 ##   zsh > bashzzz   ~~~  CONFIGURACIÓN DE LINUX WSL EN WINDWOS!!! 26/08/2025
-#
 # ───────────────────────────────────
 
                   -`                       root@classmate
@@ -24,10 +22,8 @@
  `+sso+:-`                 `.-/+oso:
 `++:.                           `-/+/
 .`                                 `/
-
-
-
-~ ❯ pacman -Qet | tail -n 20                                                                                 root@classmate 02:35:36
+~ ❯
+pacman -Qet | tail -n 20                                                                                 root@classmate 02:35:36
 base 3-2
 eza 0.23.0-1
 fastfetch 2.50.2-1
@@ -38,28 +34,22 @@ yazi 25.5.31-2
 zsh-autosuggestions 0.7.1-1
 zsh-syntax-highlighting 0.8.0-1
 
-~ ❯                                                                                                          root@classmate 02:35:39
+~ ❯                                                                                                         
+root@classmate 02:35:39
 
 ![JJK  Art - 4](https://github.com/user-attachments/assets/50fd1d94-5478-4997-84d0-1e4187b28902)
 
 # ───────────────────────────────────
-#
 ## ARCHWSLINSTALL - RESUMEN. + [Opcional]Yay + Configurar usuario root etc.
 ## 📌!!! no INSTALES NVIM ni nada innecesario. Los alias se encargan de enlazar tus programas de windows con WSL
 ## 📌¡¡¡ Para que funcione .zshrc asegurate de adaptar los paths de; \user [diego] > y asi fucioaran los alias.
-#
 # ───────────────────────────────────
-#
 ## 📌!!! Para los dotfiles puedes o bien copiarlos a tu directorio .config [PERO STOw es mejor]
 ## 📌¡¡¡ Mientras que Code si abre stow files [gracias a WSL], al usar nvim .zshrc no lo abre porque no lee symlinks.
 ## 📌!!! Solucion: nvim [path completo] ej: {nvim ~/dotfiles-wsl-dizzi/zsh/.zshrc}
-#
-# ───────────────────────────────────
 
 # ───────────────────────────────────
-#
 ##                      INSTALAR ARCH o DEBIAN + REVISAR DISTROS
-#
 # ───────────────────────────────────
 
 ### Listar distros [desde POWERSHELL WINDOWS]
@@ -77,9 +67,7 @@ wsl --unregister Debian
 wsl.exe -d archlinux
 
 # ───────────────────────────────────
-#
 ##             Parte 2: Obtener root para habilitar sudo pacman+cambiar bash > to zsh
-#
 # ───────────────────────────────────
 
 ### Actualizar el sistema+cambiar de bash a zsh
@@ -107,10 +95,7 @@ root ALL=(ALL) ALL
 #%wheel ALL=(ALL:ALL) NOPASSWD: ALL
 
 # ───────────────────────────────────
-# 
-#
 ##             Parte 3: Instalar oh-my-zash + zsh plugins hermosos, divinos [sasel controla mi menteee~~]
-#
 # ───────────────────────────────────
 
 #### ~ > instalar oh-my-zash
