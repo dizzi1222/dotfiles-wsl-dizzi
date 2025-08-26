@@ -46,18 +46,18 @@ zsh-syntax-highlighting 0.8.0-1
 # ───────────────────────────────────
 ##                      INSTALAR ARCH o DEBIAN + REVISAR DISTROS
 # ───────────────────────────────────
-### Listar distros [desde POWERSHELL WINDOWS]
+## Listar distros [desde POWERSHELL WINDOWS]
 ```wsl --list --online```
-### Instalar arch
+## Instalar arch
 ```wsl --install --distribution Arch```
 
-### O si lo prefieres.. DEBIAN
+## O si lo prefieres.. DEBIAN
 ```wsl --install --distribution Debian```
 
-### Para remover un distro..
+## Para remover un distro..
 ```wsl --unregister Debian```
 
-### Iniciar la distro por 1ra vez
+## Iniciar la distro por 1ra vez
 ```wsl.exe -d archlinux```
 
 # ───────────────────────────────────
@@ -74,7 +74,7 @@ pacman -S git base-devel zsh sudo```
 ### Establer sudo [permisos root], ejecuta
 ```visudo```
 
-#### editar sudoers
+## editar sudoers
 ```nano /etc/sudoers
 ```
 
@@ -87,7 +87,7 @@ root ALL=(ALL) ALL
 ##             Parte 3: Instalar oh-my-zash + zsh plugins hermosos, divinos [sasel controla mi menteee~~]
 # ───────────────────────────────────
 
-#### ~ > instalar oh-my-zash
+## ~ > instalar oh-my-zash
 ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # ~ > plugins zsh
 git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -106,12 +106,10 @@ git clone https://github.com/Aloxaf/fzf-tab.git ~/.zsh/fzf-tab
 ```
 
 # ───────────────────────────────────
-#
 ##                      Parte 4: INSTALAR PAQUETES BASICOS + dotfiles-wsl-dizzi
-#
 # ───────────────────────────────────
 
-### ~ > Clonar tus dotfiles:
+## ~ > Clonar tus dotfiles:
 ```git clone https://github.com/dizzi1222/dotfiles-wsl-dizzi
 cd dotfiles-wsl-dizzi
 
@@ -120,27 +118,24 @@ stow .
 
 si encuentras un conflicto, eliminalo {Al hacer stow} [No uses --adopt]
 
-### Zsh paquetes, gh auth etc
+## Zsh paquetes, gh auth etc
 sudo pacman -S git github-cli eza fastfetch nano stow yazi nodejs fzf ripgrep tmux python-pipx
 
 
 # ───────────────────────────────────
-#
 ##                    Parte 5: Gestión de usuarios y permisos
-#                      
-#
 # ───────────────────────────────────
 
 ```useradd -m -g users -G wheel diego
 passwd diego
 ```
 
-### Crear, Darle permisos al usuario, entrar al usuario [Necesario para la aUR {pamac, yay o paru}]
+## Crear, Darle permisos al usuario, entrar al usuario [Necesario para la aUR {pamac, yay o paru}]
 ```chown -R diego:users /home/diego/yay
 su diego
 ```
 
-### [OPCIONAL] instalar yay para la AUR {200mb aprox}.. necesitas chown 
+## [OPCIONAL] instalar yay para la AUR {200mb aprox}.. necesitas chown 
 ```# ~ > {si te  encuentras en "diego".. sal y ve a root}
 exit 
 
