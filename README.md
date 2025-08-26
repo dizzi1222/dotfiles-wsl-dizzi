@@ -32,18 +32,9 @@ zsh-syntax-highlighting 0.8.0-1
 
 ~ ❯                                                                     root@classmate 02:35:39
 ```
-![JJK  Art - 4]<img width="691" height="1080" alt="e5540685e47b584d9b73a6acfd163523" src="https://github.com/user-attachments/assets/ae102d70-576c-405f-908d-03725f59476f" />
-
-# ───────────────────────────────────
-## 💤 Debian Vs Arch 🦥
-
-<img width="1020" height="600" alt="8b85d9ca2b82c8355e78ec55cc0eed37" src="https://github.com/user-attachments/assets/39a8d975-cd82-4b68-9954-e1e1f784563f" />
-<img width="1495" height="591" alt="f8819b64cfec36b8bc574f055aeacbe8" src="https://github.com/user-attachments/assets/ac37b985-489d-4801-a8ce-1fde7ef7446d" />
 
 
-[https://youtu.be/H7RQYREJO98
-](https://youtu.be/H7RQYREJO98)
-<img width="839" height="291" alt="8fb0bcb2e75583bab55753f549eb38a6" src="https://github.com/user-attachments/assets/df6ecb56-d359-474d-8be1-bf68c48172ff" />
+<img width="691" height="1080" alt="![JJK  Art - 4]" src="https://github.com/user-attachments/assets/ae102d70-576c-405f-908d-03725f59476f" />
 
 ## ─❯ ⚠ 🚨 [DIFERENTE] Comandos en ARCH y DEBIAN {Diferencias}
 ```
@@ -216,5 +207,15 @@ directamente no es posible, es exclusivo de la AUR...
 I use Arch, btw.
 ```
 
+# ───────────────────────────────────
+## 💤 Debian Vs Arch 🦥
+
+<img width="337" height="198" alt="8b85d9ca2b82c8355e78ec55cc0eed37" src="https://github.com/user-attachments/assets/39a8d975-cd82-4b68-9954-e1e1f784563f" />
+
+<img width="500" height="198" alt="f8819b64cfec36b8bc574f055aeacbe8" src="https://github.com/user-attachments/assets/ac37b985-489d-4801-a8ce-1fde7ef7446d" />
 
 
+[https://youtu.be/H7RQYREJO98
+](https://youtu.be/H7RQYREJO98)
+
+<img width="500" height="173" alt="8fb0bcb2e75583bab55753f549eb38a6" src="https://github.com/user-attachments/assets/df6ecb56-d359-474d-8be1-bf68c48172ff" />
