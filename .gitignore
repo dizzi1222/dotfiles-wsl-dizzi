@@ -1,0 +1,28 @@
+
+# ignorar cache
+cache/
+# Ignorar historiales
+.bash_history
+.zsh_history
+.tig_history
+.zcompdump*
+.zwc
+
+# Ignorar carpetas pesadas o no config
+.npm/
+.rustup/
+.mono/
+.cargo/
+.mozilla/
+.steam/
+.stremio-server/
+
+# Ignorar archivos privados o sensibles
+.git-credentials
+.pulse-cookie
+.wget-hsts
+
+# Ignorar paquetes y binarios descargados
+*.tar.gz
+*.zip
+*.exe

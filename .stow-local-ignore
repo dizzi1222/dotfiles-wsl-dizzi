@@ -1,0 +1,10 @@
+manual-ln
+nixconf
+
+\.git
+\.gitignore
+\.gitmodules
+
+^/README.*
+^/LICENSE.*
+^/COPYING
