@@ -18,11 +18,6 @@
       -osssssso.      :ssssssso.           󰋊  70.77 GiB / 73.73 GiB (96%) - 9p
      :osssssss/        osssso+++.          󰛿  192.168.21.211/20
     /ossssssss/        +ssssooo/-          󰁹  100% [AC Connected]
-```  `/ossssso+/:-        -:/+osssso+-        󰇫  en_US.UTF-8
- `+sso+:-`                 `.-/+oso:
-`++:.                           `-/+/
-.`                                 `/
-```
 
 ```~ ❯ pacman -Qet | tail -n 20                                                                                 root@classmate 02:35:36
 base 3-2
