@@ -32,8 +32,7 @@ zsh-syntax-highlighting 0.8.0-1
 
 ~ ❯                                                                     root@classmate 02:35:39
 ```
-
-![JJK  Art - 4](https://github.com/user-attachments/assets/50fd1d94-5478-4997-84d0-1e4187b28902)
+![JJK  Art - 4]<img width="691" height="1080" alt="e5540685e47b584d9b73a6acfd163523" src="https://github.com/user-attachments/assets/ae102d70-576c-405f-908d-03725f59476f" />
 
 # ───────────────────────────────────
 ## 💤 Debian Vs Arch 🦥
@@ -216,5 +215,6 @@ directamente no es posible, es exclusivo de la AUR...
 
 I use Arch, btw.
 ```
+
 
 
