@@ -36,7 +36,7 @@ zsh-syntax-highlighting 0.8.0-1
 ![JJK  Art - 4](https://github.com/user-attachments/assets/50fd1d94-5478-4997-84d0-1e4187b28902)
 
 # ───────────────────────────────────
-## ARCH-WSL ~ INSTALL RESUMEN + yay [Opcional] + Configurar usuario root, AUR [Size: 1.5GB]
+## ARCH-WSL ~ INSTALL RESUMEN + yay [Opcional] + Configurar usuario root, AUR [Size: 1.8GB]
 
 ```
 ## 📌!!! no INSTALES NVIM ni nada innecesario. Los alias se encargan de enlazar tus programas de windows con WSL
