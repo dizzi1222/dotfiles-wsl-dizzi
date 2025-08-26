@@ -116,12 +116,12 @@ git clone https://github.com/Aloxaf/fzf-tab.git ~/.zsh/fzf-tab
 cd dotfiles-wsl-dizzi
 
 stow .
-```
 
-si encuentras un conflicto, eliminalo {Al hacer stow} [No uses --adopt]
+# ~ > si encuentras un conflicto, eliminalo {Al hacer stow} [No uses --adopt]
 
-### Zsh paquetes, gh auth etc
-```sudo pacman -S git github-cli eza fastfetch nano stow yazi nodejs fzf ripgrep tmux python-pipx
+# Zsh paquetes, gh auth etc
+sudo pacman -S git github-cli eza fastfetch nano stow yazi nodejs fzf ripgrep tmux python-pipx
+
 ```
 
 # ───────────────────────────────────
