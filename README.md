@@ -118,10 +118,21 @@ root ALL=(ALL) ALL
 %wheel ALL=(ALL:ALL) ALL
 ```
 
-##             Parte 3: Instalar oh-my-zash + zsh plugins hermosos, divinos [sasel controla mi menteee~~]
+##             Parte 3: Instalar oh-my-zash/posh + zsh plugins hermosos, divinos [sasel controla mi menteee~~]
 
 #### ~ > instalar oh-my-zash
-```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# ~ > Instalar oh my posh [yay]
+yay -S oh-my-posh
+nano ~/.zshrc
+#Agregar al final de .zshrc:
+# HABILITAR OH MY POSH [trae mas temas]
+# https://ohmyposh.dev/docs/themes
+
+eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/1_shell.omp.json')"
+
 # ~ > plugins zsh
 git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
@@ -219,3 +230,4 @@ I use Arch, btw.
 ](https://youtu.be/H7RQYREJO98)
 
 <img width="500" height="173" alt="8fb0bcb2e75583bab55753f549eb38a6" src="https://github.com/user-attachments/assets/df6ecb56-d359-474d-8be1-bf68c48172ff" />
+
