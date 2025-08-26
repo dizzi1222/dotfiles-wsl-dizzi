@@ -37,7 +37,7 @@ zsh-syntax-highlighting 0.8.0-1
 
 # ───────────────────────────────────
 
-## ─❯ ⚠ 🚨 Comandos en ARCH y DEBIAN {Diferencias}
+## ─❯ ⚠ 🚨 [DIFERENTE] Comandos en ARCH y DEBIAN {Diferencias}
 ```
 ╰─❯ Arch (pacman):
 pacman -Sy
@@ -52,7 +52,7 @@ apt install git build-essential zsh sudo
 ```
 
 
-## ─❯ ⚠ 🚨 Gestores de Paquete en ARCH y DEBIAN {Diferencias}
+## ─❯ ⚠ 🚨 [DIFERENTE] Gestores de Paquete en ARCH y DEBIAN {Diferencias}
 ```
 ╰─❯ Arch:
 pacman      -> gestor oficial (binarios de repos Arch)
