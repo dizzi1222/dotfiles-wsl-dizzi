@@ -16,7 +16,7 @@ bindkey '^?' backward-kill-word
 export ZSH="$HOME/.oh-my-zsh"
 
 # Mi tema preferido.
-ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Lista de plugins a cargar.
 plugins=(
@@ -142,3 +142,7 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 
 # Carga la configuración del prompt.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# HABILITAR OH MY POSH [trae mas temas]
+# https://ohmyposh.dev/docs/themes
+eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/1_shell.omp.json')"
