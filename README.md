@@ -36,12 +36,12 @@ zsh-syntax-highlighting 0.8.0-1
 ![JJK  Art - 4](https://github.com/user-attachments/assets/50fd1d94-5478-4997-84d0-1e4187b28902)
 
 # ───────────────────────────────────
-## ARCHWSLINSTALL - RESUMEN. + [Opcional]Yay + Configurar usuario root etc.
-```## 📌!!! no INSTALES NVIM ni nada innecesario. Los alias se encargan de enlazar tus programas de windows con WSL```
-```## 📌¡¡¡ Para que funcione .zshrc asegurate de adaptar los paths de; \user [diego] > y asi fucioaran los alias.```
-```## 📌!!! Para los dotfiles puedes o bien copiarlos a tu directorio .config [PERO STOw es mejor]```
-```## 📌¡¡¡ Mientras que Code si abre stow files [gracias a WSL], al usar nvim .zshrc no lo abre porque no lee symlinks.```
-```## 📌!!! Solucion: nvim [path completo] ej: {nvim ~/dotfiles-wsl-dizzi/zsh/.zshrc}```
+## ARCH-WSL ~ INSTALL - RESUMEN. + [Opcional]Yay + Configurar usuario root etc.
+```## 📌!!! no INSTALES NVIM ni nada innecesario. Los alias se encargan de enlazar tus programas de windows con WSL
+## 📌¡¡¡ Para que funcione .zshrc asegurate de adaptar los paths de; \user [diego] > y asi fucioaran los alias.
+## 📌!!! Para los dotfiles puedes o bien copiarlos a tu directorio .config [PERO STOw es mejor]
+## 📌¡¡¡ Mientras que Code si abre stow files [gracias a WSL], al usar nvim .zshrc no lo abre porque no lee symlinks.
+## 📌!!! Solucion: nvim [path completo] ej: {nvim ~/dotfiles-wsl-dizzi/zsh/.zshrc}```
 ##                      INSTALAR ARCH o DEBIAN + REVISAR DISTROS
 ### Listar distros [desde POWERSHELL WINDOWS]
 ```wsl --list --online```
