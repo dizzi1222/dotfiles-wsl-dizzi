@@ -173,7 +173,7 @@ sudo apt install git gh eza fastfetch nano stow yazi nodejs npm fzf ripgrep tmux
 ```
 
 
-##                    Parte 5: Gestión de usuarios y permisos
+##                    Parte 5: Gestión de usuarios y permisos, Crear Usuario en ARCH
 
 ```useradd -m -g users -G wheel diego
 passwd diego
@@ -191,19 +191,29 @@ usermod -aG sudo diego
 
 
 
-### Crear, Darle permisos al usuario, entrar al usuario [Necesario para la aUR {pamac, yay o paru}]
-```chown -R diego:users /home/diego/yay
+### Salir o entrar al usuario [Necesario para la aUR {pamac, yay o paru}]
+```
 su diego
+exit
 ```
 
-### [OPCIONAL] instalar yay para la AUR {200mb aprox}.. necesitas chown 
-```# ~ > {si te  encuentras en "diego".. sal y ve a root}
-exit 
+### [OPCIONAL] instalar yay para la AUR {200mb aprox}.. necesitas chown + Darle permisos al usuario 
+```
+# ~ > {si te  encuentras en su "diego".. sal y ve a root}
 
 cd ~
+
 git clone https://aur.archlinux.org/yay.git
 
+sudo cp -r /root/yay /home/diego
+
+# ~ > darles permisos de yay:
+chown -R diego:users /home/diego/yay
+
 su diego
+
+# ~ > Instala. y compila yay
+cd ~
 
 cd ~/yay
 makepkg -si
@@ -230,4 +240,5 @@ I use Arch, btw.
 ](https://youtu.be/H7RQYREJO98)
 
 <img width="500" height="173" alt="8fb0bcb2e75583bab55753f549eb38a6" src="https://github.com/user-attachments/assets/df6ecb56-d359-474d-8be1-bf68c48172ff" />
+
 
