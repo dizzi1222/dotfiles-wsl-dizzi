@@ -1,10 +1,9 @@
 
-
- =============================================================================
+# =============================================
 #
 ##   zsh > bashzzz   ~~~  CONFIGURACIÓN DE LINUX WSL EN WINDWOS!!! 26/08/2025
 #
-# =============================================================================
+# =============================================
 
 
                   -`                       root@classmate
@@ -42,27 +41,27 @@ zsh-syntax-highlighting 0.8.0-1
 
 ~ ❯                                                                                                          root@classmate 02:35:39
 
+![JJK  Art - 4](https://github.com/user-attachments/assets/50fd1d94-5478-4997-84d0-1e4187b28902)
 
-
-# =============================================================================
+# =============================================
 #
 ## ARCHWSLINSTALL - RESUMEN. + [Opcional]Yay + Configurar usuario root etc.
 ## 📌!!! no INSTALES NVIM ni nada innecesario. Los alias se encargan de enlazar tus programas de windows con WSL
 ## 📌¡¡¡ Para que funcione .zshrc asegurate de adaptar los paths de; \user [diego] > y asi fucioaran los alias.
 #
-# =============================================================================
+# =============================================
 #
 ## 📌!!! Para los dotfiles puedes o bien copiarlos a tu directorio .config [PERO STOw es mejor]
 ## 📌¡¡¡ Mientras que Code si abre stow files [gracias a WSL], al usar nvim .zshrc no lo abre porque no lee symlinks.
 ## 📌!!! Solucion: nvim [path completo] ej: {nvim ~/dotfiles-wsl-dizzi/zsh/.zshrc}
 #
-# =============================================================================
+# =============================================
 
-# =============================================================================
+# =============================================
 #
 ##                      INSTALAR ARCH o DEBIAN + REVISAR DISTROS
 #
-# =============================================================================
+# =============================================
 
 ### Listar distros [desde POWERSHELL WINDOWS]
 wsl --list --online
@@ -78,11 +77,11 @@ wsl --unregister Debian
 ### Iniciar la distro por 1ra vez
 wsl.exe -d archlinux
 
-# =============================================================================
+# =============================================
 #
 ##             Parte 2: Obtener root para habilitar sudo pacman+cambiar bash > to zsh
 #
-# =============================================================================
+# =============================================
 
 ### Actualizar el sistema+cambiar de bash a zsh
 pacman -Sy
@@ -108,11 +107,11 @@ root ALL=(ALL) ALL
 ##Same thing without a password
 #%wheel ALL=(ALL:ALL) NOPASSWD: ALL
 
-# =============================================================================
+# =============================================
 #
 ##             Parte 3: Instalar oh-my-zash + zsh plugins hermosos, divinos [sasel controla mi menteee~~]
 #
-# =============================================================================
+# =============================================
 
 #### ~ > instalar oh-my-zash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -131,11 +130,11 @@ git clone https://github.com/marlonrichert/zsh-autocomplete.git ~/.zsh/zsh-autoc
 
 git clone https://github.com/Aloxaf/fzf-tab.git ~/.zsh/fzf-tab
 
-# =============================================================================
+# =============================================
 #
 ##                      Parte 4: INSTALAR PAQUETES BASICOS + dotfiles-wsl-dizzi
 #
-# =============================================================================
+# =============================================
 
 ### ~ > Clonar tus dotfiles:
 git clone https://github.com/dizzi1222/dotfiles-wsl-dizzi
@@ -148,12 +147,12 @@ si encuentras un conflicto, eliminalo {Al hacer stow} [No uses --adopt]
 ### Zsh paquetes, gh auth etc
 sudo pacman -S git github-cli eza fastfetch nano stow yazi nodejs fzf ripgrep tmux python-pipx
 
-# =============================================================================
+# =============================================
 #
 ##                    Parte 5: Gestión de usuarios y permisos
 #                      
 #
-# =============================================================================
+# =============================================
 
 useradd -m -g users -G wheel diego
 passwd diego
