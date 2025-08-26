@@ -70,6 +70,16 @@ function vlc() {
   /mnt/c/Program\ Files/VideoLAN/VLC/vlc.exe "$(wslpath -w "$1")"
 }
 
+
+# 📌 [Notepads] Abre un texto con el notepad de Windows.
+function notepad() {
+    if [[ -z "$1" ]]; then
+        notepads.exe
+    else
+        notepads.exe "$(wslpath -w "$1")"
+    fi
+}
+
 # Añade el directorio global de npm al PATH.
 export PATH=~/.npm-global/bin:$PATH
 
