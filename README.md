@@ -79,7 +79,6 @@ pacman -S git base-devel zsh sudo```
 
 ```
 root ALL=(ALL) ALL
-## Uncomment to allow members of group wheel to execute any command
 %wheel ALL=(ALL:ALL) ALL
 ```
 
