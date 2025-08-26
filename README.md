@@ -1,6 +1,6 @@
 
 # =============== 💤 🔮 🗿 In Love with arch 
-##   zsh > bashzzz   ~~~  CONFIGURACIÓN DE LINUX WSL EN WINDWOS!!! 26/08/2025 🔮 🔥 🚀
+##   zsh > bashzzz btw~  CONFIGURACIÓN DE LINUX WSL EN WINDWOS!!! 26/08/2025 🔮 🔥 🚀
 # ───────────────────────────────────
 
                   -`                       root@classmate
@@ -33,10 +33,23 @@ zsh-syntax-highlighting 0.8.0-1
 ~ ❯                                                                     root@classmate 02:35:39
 ```
 
-![JJK  Art - 4](https://github.com/user-attachments/assets/50fd1d94-5478-4997-84d0-1e4187b28902)
+![JJK  Art - 4](https://github.com/user-attachments/assets/50fd1d94-5478-4997-84d0-1e4187b28902){height=400px}
 
 # ───────────────────────────────────
-## ARCH-WSL ~ INSTALL RESUMEN + yay [Opcional] + Configurar usuario root, AUR [Size: 1.8GB]
+
+##─❯ Comandos en ARCH y DEBIAN {Diferencias}
+```
+╰─❯ Arch (pacman):
+pacman -Sy
+pacman -S git base-devel zsh sudo
+
+╰─❯ Debian/Ubuntu (apt):
+
+apt update
+apt install git build-essential zsh sudo
+```
+
+## ARCH-WSL ~ INSTALL RESUMEN + yay [Opcional] + Configurar usuario root, AUR [Size: 1.GB]
 
 ```
 ## 📌!!! no INSTALES NVIM ni nada innecesario. Los alias se encargan de enlazar tus programas de windows con WSL
