@@ -36,6 +36,12 @@ zsh-syntax-highlighting 0.8.0-1
 ![JJK  Art - 4](https://github.com/user-attachments/assets/50fd1d94-5478-4997-84d0-1e4187b28902)
 
 # ───────────────────────────────────
+## 💤 Debian Vs Arch 🦥
+
+[https://youtu.be/H7RQYREJO98
+](https://youtu.be/H7RQYREJO98)
+<img width="1020" height="600" alt="8b85d9ca2b82c8355e78ec55cc0eed37" src="https://github.com/user-attachments/assets/39a8d975-cd82-4b68-9954-e1e1f784563f" />
+<img width="1495" height="591" alt="f8819b64cfec36b8bc574f055aeacbe8" src="https://github.com/user-attachments/assets/ac37b985-489d-4801-a8ce-1fde7ef7446d" />
 
 ## ─❯ ⚠ 🚨 [DIFERENTE] Comandos en ARCH y DEBIAN {Diferencias}
 ```
