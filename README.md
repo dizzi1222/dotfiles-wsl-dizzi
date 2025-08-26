@@ -33,11 +33,11 @@ zsh-syntax-highlighting 0.8.0-1
 ~ ❯                                                                     root@classmate 02:35:39
 ```
 
-![JJK  Art - 4](https://github.com/user-attachments/assets/50fd1d94-5478-4997-84d0-1e4187b28902){height=400px}
+![JJK  Art - 4](https://github.com/user-attachments/assets/50fd1d94-5478-4997-84d0-1e4187b28902)
 
 # ───────────────────────────────────
 
-##─❯ Comandos en ARCH y DEBIAN {Diferencias}
+## ─❯ ⚠ 🚨 Comandos en ARCH y DEBIAN {Diferencias}
 ```
 ╰─❯ Arch (pacman):
 pacman -Sy
@@ -45,9 +45,33 @@ pacman -S git base-devel zsh sudo
 
 ╰─❯ Debian/Ubuntu (apt):
 
-apt update
+apt update && apt upgrade
 apt install git build-essential zsh sudo
+
+# sino remarco [Diferente] eso significa que es {igual} el proceso de configurar wsl (tanto en debian/Arch).
 ```
+
+
+## ─❯ ⚠ 🚨 Gestores de Paquete en ARCH y DEBIAN {Diferencias}
+```
+╰─❯ Arch:
+pacman      -> gestor oficial (binarios de repos Arch)
+yay/paru    -> ayudantes de la AUR (paquetes de la comunidad)
+pamac       -> opcional, interfaz amigable (GTK/CLI) para repos + AUR
+makepkg     -> compilar manualmente PKGBUILD
+
+╰─❯ Debian/Ubuntu:
+apt         -> gestor principal (binarios de repos Debian/Ubuntu)
+dpkg        -> bajo nivel (instalar .deb locales)
+
+        |
+        ╰─❯ambos comparten:
+          snap        -> paquetes universales de Canonical (sandbox)
+          flatpak     -> paquetes universales (sandbox, independiente de Snap)
+          pip/pipx    -> gestor de paquetes Python (user-space, sin tocar sistema)
+```
+
+
 
 ## ARCH-WSL ~ INSTALL RESUMEN + yay [Opcional] + Configurar usuario root, AUR [Size: 1.GB]
 
@@ -127,14 +151,35 @@ stow .
 
 # Zsh paquetes, gh auth etc
 sudo pacman -S git github-cli eza fastfetch nano stow yazi nodejs fzf ripgrep tmux python-pipx
-
 ```
+
+## ─❯ ⚠ 🚨 [DIFERENTE] en Debian y derivados..
+```
+╰─❯ En Debian:
+
+# Zsh paquetes, gh auth etc
+sudo apt install git gh eza fastfetch nano stow yazi nodejs npm fzf ripgrep tmux pipx man-db locales apt-transport-https ca-certificates curl gnupg lsb-release
+# Algunos paquetes extras.. Esto asegura que .zshrc, alias y compilaciones no fallen.
+```
+
 
 ##                    Parte 5: Gestión de usuarios y permisos
 
 ```useradd -m -g users -G wheel diego
 passwd diego
 ```
+
+
+## ─❯ ⚠ 🚨 [DIFERENTE] en Debian y derivados..
+```
+╰─❯ En Debian:
+
+adduser diego
+usermod -aG sudo diego
+```
+
+
+
 
 ### Crear, Darle permisos al usuario, entrar al usuario [Necesario para la aUR {pamac, yay o paru}]
 ```chown -R diego:users /home/diego/yay
@@ -153,4 +198,14 @@ su diego
 cd ~/yay
 makepkg -si
 ```
+
+
+## ─❯ ⚠ 🚨 [DIFERENTE] en Debian y derivados..
+```
+╰─❯ En Debian:
+directamente no es posible, es exclusivo de la AUR...
+
+I use Arch, btw.
+```
+
 
