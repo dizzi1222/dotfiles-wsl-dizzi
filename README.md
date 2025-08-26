@@ -1,6 +1,6 @@
 
-# =============================================
-##   zsh > bashzzz   ~~~  CONFIGURACIÓN DE LINUX WSL EN WINDWOS!!! 26/08/2025
+# =============== 💤 🔮 🗿 In Love with arch 
+##   zsh > bashzzz   ~~~  CONFIGURACIÓN DE LINUX WSL EN WINDWOS!!! 26/08/2025 🔮 🔥 🚀
 # ───────────────────────────────────
 
                   -`                       root@classmate
@@ -18,12 +18,12 @@
       -osssssso.      :ssssssso.           󰋊  70.77 GiB / 73.73 GiB (96%) - 9p
      :osssssss/        osssso+++.          󰛿  192.168.21.211/20
     /ossssssss/        +ssssooo/-          󰁹  100% [AC Connected]
-  `/ossssso+/:-        -:/+osssso+-        󰇫  en_US.UTF-8
+```  `/ossssso+/:-        -:/+osssso+-        󰇫  en_US.UTF-8
  `+sso+:-`                 `.-/+oso:
 `++:.                           `-/+/
-.`                                 `/
-~ ❯
-pacman -Qet | tail -n 20                                                                                 root@classmate 02:35:36
+.`                                 `/```
+
+```~ ❯ pacman -Qet | tail -n 20                                                                                 root@classmate 02:35:36
 base 3-2
 eza 0.23.0-1
 fastfetch 2.50.2-1
@@ -34,10 +34,10 @@ yazi 25.5.31-2
 zsh-autosuggestions 0.7.1-1
 zsh-syntax-highlighting 0.8.0-1
 
-~ ❯                                                                                                         
-root@classmate 02:35:39
+~ ❯                                                                                                          root@classmate 02:35:39
+```
 
-![JJK  Art - 4](https://github.com/user-attachments/assets/50fd1d94-5478-4997-84d0-1e4187b28902)
+```![JJK  Art - 4](https://github.com/user-attachments/assets/50fd1d94-5478-4997-84d0-1e4187b28902)```
 
 # ───────────────────────────────────
 ## ARCHWSLINSTALL - RESUMEN. + [Opcional]Yay + Configurar usuario root etc.
@@ -47,11 +47,9 @@ root@classmate 02:35:39
 ## 📌!!! Para los dotfiles puedes o bien copiarlos a tu directorio .config [PERO STOw es mejor]
 ## 📌¡¡¡ Mientras que Code si abre stow files [gracias a WSL], al usar nvim .zshrc no lo abre porque no lee symlinks.
 ## 📌!!! Solucion: nvim [path completo] ej: {nvim ~/dotfiles-wsl-dizzi/zsh/.zshrc}
-
 # ───────────────────────────────────
 ##                      INSTALAR ARCH o DEBIAN + REVISAR DISTROS
 # ───────────────────────────────────
-
 ### Listar distros [desde POWERSHELL WINDOWS]
 wsl --list --online
 ### Instalar arch
