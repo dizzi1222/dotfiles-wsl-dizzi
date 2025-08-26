@@ -77,17 +77,10 @@ pacman -S git base-devel zsh sudo```
 #### editar sudoers
 ```nano /etc/sudoers```
 
-#### y agregar lo siguiente
 ```
-##
-## User privilege specification
-##
 root ALL=(ALL) ALL
-##
 ## Uncomment to allow members of group wheel to execute any command
 %wheel ALL=(ALL:ALL) ALL
-## Same thing without a password
-# %wheel ALL=(ALL:ALL) NOPASSWD: ALL
 ```
 
 # ───────────────────────────────────
