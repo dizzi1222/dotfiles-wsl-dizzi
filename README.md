@@ -75,7 +75,8 @@ pacman -S git base-devel zsh sudo```
 ```visudo```
 
 #### editar sudoers
-```nano /etc/sudoers```
+```nano /etc/sudoers
+```
 
 ```
 root ALL=(ALL) ALL
@@ -87,9 +88,9 @@ root ALL=(ALL) ALL
 # ───────────────────────────────────
 
 #### ~ > instalar oh-my-zash
-```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
-#### plugins zsh
-```git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# ~ > plugins zsh
+git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
@@ -101,7 +102,8 @@ git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM
 
 git clone https://github.com/marlonrichert/zsh-autocomplete.git ~/.zsh/zsh-autocomplete
 
-git clone https://github.com/Aloxaf/fzf-tab.git ~/.zsh/fzf-tab```
+git clone https://github.com/Aloxaf/fzf-tab.git ~/.zsh/fzf-tab
+```
 
 # ───────────────────────────────────
 #
@@ -113,12 +115,14 @@ git clone https://github.com/Aloxaf/fzf-tab.git ~/.zsh/fzf-tab```
 ```git clone https://github.com/dizzi1222/dotfiles-wsl-dizzi
 cd dotfiles-wsl-dizzi
 
-stow .```
+stow .
+```
 
 si encuentras un conflicto, eliminalo {Al hacer stow} [No uses --adopt]
 
 ### Zsh paquetes, gh auth etc
-```sudo pacman -S git github-cli eza fastfetch nano stow yazi nodejs fzf ripgrep tmux python-pipx```
+```sudo pacman -S git github-cli eza fastfetch nano stow yazi nodejs fzf ripgrep tmux python-pipx
+```
 
 # ───────────────────────────────────
 #
@@ -128,11 +132,13 @@ si encuentras un conflicto, eliminalo {Al hacer stow} [No uses --adopt]
 # ───────────────────────────────────
 
 ```useradd -m -g users -G wheel diego
-passwd diego```
+passwd diego
+```
 
 ### Crear, Darle permisos al usuario, entrar al usuario [Necesario para la aUR {pamac, yay o paru}]
 ```chown -R diego:users /home/diego/yay
-su diego```
+su diego
+```
 
 ### [OPCIONAL] instalar yay para la AUR {200mb aprox}.. necesitas chown 
 ```# ~ > {si te  encuentras en "diego".. sal y ve a root}
@@ -144,5 +150,6 @@ git clone https://aur.archlinux.org/yay.git
 su diego
 
 cd ~/yay
-makepkg -si```
+makepkg -si
+```
 
