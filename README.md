@@ -36,7 +36,7 @@ zsh-syntax-highlighting 0.8.0-1
 ![JJK  Art - 4](https://github.com/user-attachments/assets/50fd1d94-5478-4997-84d0-1e4187b28902)
 
 # ───────────────────────────────────
-## ARCH-WSL ~ INSTALL - RESUMEN. + [Opcional]Yay + Configurar usuario root etc.
+## ARCH-WSL ~ INSTALL RESUMEN + yay [Opcional] + Configurar usuario root, AUR [Size: 1.5GB]
 
 ```
 ## 📌!!! no INSTALES NVIM ni nada innecesario. Los alias se encargan de enlazar tus programas de windows con WSL
@@ -73,7 +73,7 @@ pacman -S git base-devel zsh sudo```
 ### Establer sudo [permisos root], ejecuta
 ```visudo```
 
-#### editar sudoers
+#### editar sudoers, y agrega lo siguiente
 ```nano /etc/sudoers
 ```
 
