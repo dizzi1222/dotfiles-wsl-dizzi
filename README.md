@@ -160,7 +160,7 @@ stow .
 # ~ > si encuentras un conflicto, eliminalo {Al hacer stow} [No uses --adopt]
 
 # Zsh paquetes, gh auth etc
-sudo pacman -S git github-cli eza fastfetch nano stow yazi nodejs fzf ripgrep tmux python-pipx
+sudo pacman -S git github-cli eza fastfetch nano stow yazi nodejs fzf ripgrep tmux python-pipx fd
 ```
 
 ## ─❯ ⚠ 🚨 [DIFERENTE] en Debian y derivados..
@@ -168,7 +168,7 @@ sudo pacman -S git github-cli eza fastfetch nano stow yazi nodejs fzf ripgrep tm
 ╰─❯ En Debian:
 
 # Zsh paquetes, gh auth etc
-sudo apt install git gh eza fastfetch nano stow yazi nodejs npm fzf ripgrep tmux pipx man-db locales apt-transport-https ca-certificates curl gnupg lsb-release
+sudo apt install git gh eza fastfetch nano stow yazi nodejs npm fzf ripgrep tmux pipx man-db locales apt-transport-https ca-certificates curl gnupg lsb-release fd fd-find
 # Algunos paquetes extras.. Esto asegura que .zshrc, alias y compilaciones no fallen.
 ```
 
@@ -240,5 +240,6 @@ I use Arch, btw.
 ](https://youtu.be/H7RQYREJO98)
 
 <img width="500" height="173" alt="8fb0bcb2e75583bab55753f549eb38a6" src="https://github.com/user-attachments/assets/df6ecb56-d359-474d-8be1-bf68c48172ff" />
+
 
 
